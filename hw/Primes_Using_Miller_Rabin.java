@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class Primes_Using_Miller_Rabin {
-
+	
 	public boolean millerRabin(long n, int k) {
 		if (n == 2 || n == 3)
 			return true;
