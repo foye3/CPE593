@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 
-public class AttitudeEquals100 {
+public class WordsSumEquals100 {
 	public static void main(String[] args) throws IOException {
 		long t1 = System.currentTimeMillis();
 		BufferedReader br = new BufferedReader(new FileReader("src/hw/dict.txt"));
