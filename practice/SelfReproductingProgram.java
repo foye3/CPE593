@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class SelfReproductingProgram {
 	public static void main(String[] args) {
-		String filename = "/Users/fanzhang/Documents/workspace/CPE593/src/practice/SelfReproductingProgram.java";
+		String filename = "./SelfReproductingProgram.java";
 
 		try {
 			BufferedReader reader = new BufferedReader(new FileReader(filename));
